@@ -10,7 +10,7 @@
 get_sunsentiments <- function(lexicon = c("sunscReen")) {
   lexicon <- match.arg(lexicon)
 
-  sunscReen = lexicon_sunscReen()
+  sunscReen = lexicon_sunscReen("sunscReen")
 }
 
 
@@ -23,7 +23,7 @@ get_sunsentiments <- function(lexicon = c("sunscReen")) {
 lexicon_sunscReen <- function(dir = NULL, delete = FALSE, return_path = FALSE,
                               clean = FALSE) {
   textdata:::load_dataset(data_name = "sunscReen", name = "sunscReen.rds",
-               dir = dir,
+               dir = "../data/sunscReen.rds",
                delete = delete,
                return_path = return_path, clean = clean)
 }
