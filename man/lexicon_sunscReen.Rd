@@ -4,8 +4,7 @@
 \alias{lexicon_sunscReen}
 \title{lexicon_sunscReen}
 \usage{
-lexicon_sunscReen(dir = NULL, delete = FALSE, return_path = FALSE,
-  clean = FALSE)
+lexicon_sunscReen()
 }
 \value{
 A \code{dataframe} of sentiments

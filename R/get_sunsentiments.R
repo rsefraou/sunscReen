@@ -10,7 +10,7 @@
 get_sunsentiments <- function(lexicon = c("sunscReen")) {
   lexicon <- match.arg(lexicon)
 
-  sunscReen = lexicon_sunscReen("sunscReen")
+  sunscReen = lexicon_sunscReen()
 }
 
 
