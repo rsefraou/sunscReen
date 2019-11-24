@@ -18,8 +18,8 @@
 get_sunsentiments <- function(lexicon = c("sunscReen")) {
     lexicon <- match.arg(lexicon)
 
-    sunscReen = lexicon_sunscReen(),
-  )
+    sunscReen = lexicon_sunscReen()
+}
 
 
   #' @family lexicon
@@ -47,4 +47,4 @@ get_sunsentiments <- function(lexicon = c("sunscReen")) {
                  delete = delete,
                  return_path = return_path, clean = clean)
   }
-}
+
