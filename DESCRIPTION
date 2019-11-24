@@ -17,6 +17,8 @@ Imports:
     Rcpp,
     tidytext,
     lexicon,
+    textdata,
+    dataesgobr,
     shiny (>= 1.4.0)
 Depends:
     R (>= 3.1.0)
