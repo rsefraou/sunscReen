@@ -21,5 +21,6 @@ get_sunsentiments <- function(lexicon = c("sunscReen")) {
 #' @export
 #' @import magrittr dplyr textdata dataesgobr
 lexicon_sunscReen <- function() {
-     load("sunscReen.rds")
-}
+  readRDS("../data/sunscReen.rds")
+  }
+
