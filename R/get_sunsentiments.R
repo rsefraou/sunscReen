@@ -19,10 +19,10 @@ get_sunsentiments <- function(lexicon = c("sunscReen")) {
 #' @describeIn lexicon_sunscReen is used in getsunsentiments
 #' @return A \code{dataframe} of sentiments
 #' @export
-#' @import magrittr dplyr
+#' @import magrittr dplyr textdata
 lexicon_sunscReen <- function(dir = NULL, delete = FALSE, return_path = FALSE,
                               clean = FALSE) {
-  load_dataset(data_name = "sunscReen", name = "words.rds",
+  textdata::load_dataset(data_name = "sunscReen", name = "words.rds",
                dir = dir,
                delete = delete,
                return_path = return_path, clean = clean)
