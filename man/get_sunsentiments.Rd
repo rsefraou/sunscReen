@@ -2,18 +2,24 @@
 % Please edit documentation in R/get_sunsentiments.R
 \name{get_sunsentiments}
 \alias{get_sunsentiments}
-\title{Get a tidy data frame of a single sentiment lexicon}
+\title{get_sunsentiments}
 \usage{
 get_sunsentiments(lexicon = c("sunscReen"))
 }
 \arguments{
-\item{lexicon}{The sentiment lexicon to retrieve;
-either "afinn", "bing", "nrc", or "loughran" or "sunscReen"}
+\item{lexicon}{A \code{character} (character) used to name the lexicon}
+}
+\value{
+A \code{dataframe} of words with sentiments
 }
 \description{
-Get specific sentiment lexicons in a tidy format, with one row per word,
-in a form that can be joined with a one-word-per-row dataset.
-The \code{"bing"} option comes from the included \code{\link{sentiments}}
-data frame, and others call the relevant function in the \pkg{textdata}
-package.
+get_sunsentiments
+}
+\section{Functions}{
+\itemize{
+\item \code{get_sunsentiments}: gets sentiments about sunscreens depending on words
+}}
+
+\examples{
+get_sunsentiments("sunscReen")
 }

@@ -2,9 +2,5 @@
 
 export(get_sunsentiments)
 export(lexicon_sunscReen)
-importFrom(fs,dir_create)
-importFrom(fs,dir_exists)
-importFrom(fs,file_exists)
-importFrom(fs,path)
-importFrom(readr,read_rds)
-importFrom(utils,menu)
+import(dplyr)
+import(magrittr)
