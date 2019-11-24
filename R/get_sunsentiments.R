@@ -22,7 +22,7 @@ get_sunsentiments <- function(lexicon = c("sunscReen")) {
 #' @import magrittr dplyr textdata dataesgobr
 lexicon_sunscReen <- function(dir = NULL, delete = FALSE, return_path = FALSE,
                               clean = FALSE) {
-  dataesgobr::load_dataset(data_name = "sunscReen", name = "sunscReen.rds",
+  texdata:::load_dataset(data_name = "sunscReen", name = "sunscReen.rds",
                dir = dir,
                delete = delete,
                return_path = return_path, clean = clean)
