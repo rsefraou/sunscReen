@@ -20,7 +20,6 @@ get_sunsentiments <- function(lexicon = c("sunscReen")) {
 #' @return A \code{dataframe} of sentiments
 #' @export
 #' @import magrittr dplyr textdata dataesgobr
-lexicon_sunscReen <- function(dir = NULL, delete = FALSE, return_path = FALSE,
-                              clean = FALSE) {
+lexicon_sunscReen <- function() {
      load("sunscReen.rds")
 }
