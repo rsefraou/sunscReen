@@ -2,7 +2,3 @@
 
 export(get_sunsentiments)
 export(lexicon_sunscReen)
-import(dataesgobr)
-import(dplyr)
-import(magrittr)
-import(textdata)
